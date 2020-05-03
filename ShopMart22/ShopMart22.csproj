@@ -1,0 +1,111 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-ShopMart22-38AA9A2E-C7CF-43FC-A548-8E3F627427E0</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.8.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopMart22.Application\ShopMart22.Application.csproj" />
+    <ProjectReference Include="..\ShopMart22.Data.EF\ShopMart22.Data.EF.csproj" />
+    <ProjectReference Include="..\ShopMart22.Data\ShopMart22.Data.csproj" />
+    <ProjectReference Include="..\ShopMart22.Infrastructure\ShopMart22.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShopMart22.Utilities\ShopMart22.Utilities.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\bootbox\.git\objects\info\" />
+    <Folder Include="wwwroot\lib\bootbox\.git\refs\tags\" />
+    <Folder Include="wwwroot\lib\notifyjs\.git\objects\info\" />
+    <Folder Include="wwwroot\lib\notifyjs\.git\refs\tags\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\bootbox\.git\config" />
+    <None Include="wwwroot\lib\bootbox\.git\description" />
+    <None Include="wwwroot\lib\bootbox\.git\HEAD" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\applypatch-msg.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\commit-msg.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\post-update.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\pre-applypatch.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\pre-commit.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\pre-merge-commit.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\pre-push.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\pre-rebase.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\pre-receive.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\hooks\update.sample" />
+    <None Include="wwwroot\lib\bootbox\.git\index" />
+    <None Include="wwwroot\lib\bootbox\.git\info\exclude" />
+    <None Include="wwwroot\lib\bootbox\.git\logs\HEAD" />
+    <None Include="wwwroot\lib\bootbox\.git\logs\refs\heads\master" />
+    <None Include="wwwroot\lib\bootbox\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="wwwroot\lib\bootbox\.git\objects\pack\pack-1364387eaddcda9980f284f3e6947314ef3f0b46.idx" />
+    <None Include="wwwroot\lib\bootbox\.git\objects\pack\pack-1364387eaddcda9980f284f3e6947314ef3f0b46.pack" />
+    <None Include="wwwroot\lib\bootbox\.git\packed-refs" />
+    <None Include="wwwroot\lib\bootbox\.git\refs\heads\master" />
+    <None Include="wwwroot\lib\bootbox\.git\refs\remotes\origin\HEAD" />
+    <None Include="wwwroot\lib\bootstrap\.github\CODEOWNERS" />
+    <None Include="wwwroot\lib\bootstrap\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\bug.md" />
+    <None Include="wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\bug_report.md" />
+    <None Include="wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\feature.md" />
+    <None Include="wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\feature_request.md" />
+    <None Include="wwwroot\lib\bootstrap\.github\SUPPORT.md" />
+    <None Include="wwwroot\lib\Chart.js\.github\ISSUE_TEMPLATE.md" />
+    <None Include="wwwroot\lib\Chart.js\.github\PULL_REQUEST_TEMPLATE.md" />
+    <None Include="wwwroot\lib\ckeditor\.github\ISSUE_TEMPLATE" />
+    <None Include="wwwroot\lib\Flot\.circleci\config.yml" />
+    <None Include="wwwroot\lib\notifyjs\.git\config" />
+    <None Include="wwwroot\lib\notifyjs\.git\description" />
+    <None Include="wwwroot\lib\notifyjs\.git\HEAD" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\applypatch-msg.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\commit-msg.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\post-update.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\pre-applypatch.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\pre-commit.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\pre-merge-commit.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\pre-push.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\pre-rebase.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\pre-receive.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\hooks\update.sample" />
+    <None Include="wwwroot\lib\notifyjs\.git\index" />
+    <None Include="wwwroot\lib\notifyjs\.git\info\exclude" />
+    <None Include="wwwroot\lib\notifyjs\.git\logs\HEAD" />
+    <None Include="wwwroot\lib\notifyjs\.git\logs\refs\heads\master" />
+    <None Include="wwwroot\lib\notifyjs\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="wwwroot\lib\notifyjs\.git\objects\pack\pack-3e81b12384a2a4db53562a9cd4e1037b02140f1d.idx" />
+    <None Include="wwwroot\lib\notifyjs\.git\objects\pack\pack-3e81b12384a2a4db53562a9cd4e1037b02140f1d.pack" />
+    <None Include="wwwroot\lib\notifyjs\.git\packed-refs" />
+    <None Include="wwwroot\lib\notifyjs\.git\refs\heads\master" />
+    <None Include="wwwroot\lib\notifyjs\.git\refs\remotes\origin\HEAD" />
+  </ItemGroup>
+
+</Project>

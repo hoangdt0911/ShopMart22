@@ -1,0 +1,15 @@
+D:\American English File\ShopMart22\ShopMart22.Data\bin\Debug\netcoreapp2.2\ShopMart22.Data.deps.json
+D:\American English File\ShopMart22\ShopMart22.Data\bin\Debug\netcoreapp2.2\ShopMart22.Data.dll
+D:\American English File\ShopMart22\ShopMart22.Data\bin\Debug\netcoreapp2.2\ShopMart22.Data.pdb
+D:\American English File\ShopMart22\ShopMart22.Data\obj\Debug\netcoreapp2.2\ShopMart22.Data.AssemblyInfoInputs.cache
+D:\American English File\ShopMart22\ShopMart22.Data\obj\Debug\netcoreapp2.2\ShopMart22.Data.AssemblyInfo.cs
+D:\American English File\ShopMart22\ShopMart22.Data\obj\Debug\netcoreapp2.2\ShopMart22.Data.dll
+D:\American English File\ShopMart22\ShopMart22.Data\obj\Debug\netcoreapp2.2\ShopMart22.Data.pdb
+D:\American English File\ShopMart22\ShopMart22.Data\obj\Debug\netcoreapp2.2\ShopMart22.Data.csprojAssemblyReference.cache
+D:\American English File\ShopMart22\ShopMart22.Data\bin\Debug\netcoreapp2.2\ShopMart22.Data.runtimeconfig.json
+D:\American English File\ShopMart22\ShopMart22.Data\bin\Debug\netcoreapp2.2\ShopMart22.Data.runtimeconfig.dev.json
+D:\American English File\ShopMart22\ShopMart22.Data\obj\Debug\netcoreapp2.2\ShopMart22.Data.genruntimeconfig.cache
+D:\American English File\ShopMart22\ShopMart22.Data\bin\Debug\netcoreapp2.2\ShopMart22.Infrastructure.dll
+D:\American English File\ShopMart22\ShopMart22.Data\bin\Debug\netcoreapp2.2\ShopMart22.Infrastructure.pdb
+D:\American English File\ShopMart22\ShopMart22.Data\obj\Debug\netcoreapp2.2\ShopMart22.Data.csproj.CopyComplete
+D:\American English File\ShopMart22\ShopMart22.Data\obj\Debug\netcoreapp2.2\ShopMart22.Data.csproj.CoreCompileInputs.cache

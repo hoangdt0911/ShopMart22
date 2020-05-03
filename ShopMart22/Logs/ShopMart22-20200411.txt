@@ -1,0 +1,761 @@
+2020-04-11T11:42:12.3802883+07:00 8000000a-0002-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/   (ca22a1cb)
+2020-04-11T11:42:12.8469453+07:00 8000000a-0002-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:42:12.8676009+07:00 8000000a-0002-fc00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:42:12.8806496+07:00 8000000a-0002-fc00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 3.2085ms. (50a9e262)
+2020-04-11T11:42:12.9125327+07:00 8000000a-0002-fc00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:42:13.2833328+07:00 8000000a-0002-fc00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 366.205ms. (f66409e9)
+2020-04-11T11:42:13.2859342+07:00 8000000a-0002-fc00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Controllers.HomeController.Index (ShopMart22)" in 436.6726ms (afa2e885)
+2020-04-11T11:42:13.3117445+07:00 8000000a-0002-fc00-b63f-84710c7967bb [INF] Request finished in 937.0812ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:42:34.4097636+07:00 80000015-0000-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T11:42:34.4190054+07:00 80000015-0000-f900-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:42:34.4247572+07:00 80000015-0000-f900-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:42:34.4274001+07:00 80000015-0000-f900-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5153ms. (50a9e262)
+2020-04-11T11:42:34.4492683+07:00 80000015-0000-f900-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:42:34.5047750+07:00 80000015-0000-f900-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 75.0341ms. (f66409e9)
+2020-04-11T11:42:34.5076421+07:00 80000015-0000-f900-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 85.8929ms (afa2e885)
+2020-04-11T11:42:34.5102100+07:00 80000015-0000-f900-b63f-84710c7967bb [INF] Request finished in 100.512ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:42:34.5989922+07:00 8000000d-0000-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/lib/notifyjs/dist/styles/metro/notify-metro.js   (ca22a1cb)
+2020-04-11T11:42:34.6012982+07:00 80000017-0000-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/lib/notifyjs/dist/notify.js   (ca22a1cb)
+2020-04-11T11:42:34.6023294+07:00 80000005-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/lib/notifyjs/dist/styles/metro/notify-metro.css   (ca22a1cb)
+2020-04-11T11:42:34.6685046+07:00 8000000d-0000-fc00-b63f-84710c7967bb [INF] The file "/lib/notifyjs/dist/styles/metro/notify-metro.js" was not modified (f1f8d725)
+2020-04-11T11:42:34.6715263+07:00 80000017-0000-f900-b63f-84710c7967bb [INF] The file "/lib/notifyjs/dist/notify.js" was not modified (f1f8d725)
+2020-04-11T11:42:34.6784414+07:00 80000005-0001-fd00-b63f-84710c7967bb [INF] The file "/lib/notifyjs/dist/styles/metro/notify-metro.css" was not modified (f1f8d725)
+2020-04-11T11:42:34.6829996+07:00 8000000a-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T11:42:34.6870379+07:00 8000000a-0003-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:42:34.6938948+07:00 8000000a-0003-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:42:34.6962101+07:00 80000005-0001-fd00-b63f-84710c7967bb [INF] Request finished in 91.4146ms 304 text/css (791a596a)
+2020-04-11T11:42:34.7197183+07:00 80000017-0000-f900-b63f-84710c7967bb [INF] Request finished in 95.2618ms 304 application/javascript (791a596a)
+2020-04-11T11:42:34.6986102+07:00 8000000d-0000-fc00-b63f-84710c7967bb [INF] Request finished in 95.4047ms 304 application/javascript (791a596a)
+2020-04-11T11:42:34.7233514+07:00 8000000c-0002-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/lib/jquery-validation/localization/messages_vi.js   (ca22a1cb)
+2020-04-11T11:42:34.7289806+07:00 80000003-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/app/controllers/login/index.js   (ca22a1cb)
+2020-04-11T11:42:34.8557847+07:00 8000000f-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/app/shared/ShopMart22.js   (ca22a1cb)
+2020-04-11T11:42:34.8558616+07:00 8000000c-0002-fc00-b63f-84710c7967bb [INF] The file "/lib/jquery-validation/localization/messages_vi.js" was not modified (f1f8d725)
+2020-04-11T11:42:34.8798431+07:00 80000003-0001-fc00-b63f-84710c7967bb [INF] The file "/app/controllers/login/index.js" was not modified (f1f8d725)
+2020-04-11T11:42:34.8824545+07:00 8000000f-0000-fe00-b63f-84710c7967bb [INF] The file "/app/shared/ShopMart22.js" was not modified (f1f8d725)
+2020-04-11T11:42:34.8853707+07:00 8000000c-0002-fc00-b63f-84710c7967bb [INF] Request finished in 159.558ms 304 application/javascript (791a596a)
+2020-04-11T11:42:34.8875548+07:00 8000000a-0003-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0362ms. (50a9e262)
+2020-04-11T11:42:34.8898816+07:00 80000003-0001-fc00-b63f-84710c7967bb [INF] Request finished in 162.3999ms 304 application/javascript (791a596a)
+2020-04-11T11:42:34.8939797+07:00 8000000f-0000-fe00-b63f-84710c7967bb [INF] Request finished in 163.4528ms 304 application/javascript (791a596a)
+2020-04-11T11:42:34.8956242+07:00 8000000a-0003-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:42:34.9017780+07:00 8000000a-0003-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 11.7263ms. (f66409e9)
+2020-04-11T11:42:34.9058221+07:00 8000000a-0003-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 214.9413ms (afa2e885)
+2020-04-11T11:42:34.9101959+07:00 8000000a-0003-fe00-b63f-84710c7967bb [INF] Request finished in 236.8036ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:42:47.1340189+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44375/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-04-11T11:42:47.2037558+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(ShopMart22.Models.AccountViewModels.LoginViewModel)" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:42:47.2671606+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:42:47.3983237+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:42:47.5389593+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("39"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-04-11T11:42:47.8721785+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-04-11T11:42:47.9686933+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("30"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T11:42:48.0113745+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("8"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-04-11T11:42:48.0448899+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-04-11T11:42:48.0552805+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T11:42:48.0684035+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-04-11T11:42:48.0741662+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-04-11T11:42:48.0790288+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 809.9375ms. (50a9e262)
+2020-04-11T11:42:48.0909827+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"ShopMart22.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-04-11T11:42:48.2536633+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" in 1047.1023ms (afa2e885)
+2020-04-11T11:42:48.2666219+07:00 8000000c-0003-fe00-b63f-84710c7967bb [INF] Request finished in 1133.1876ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-11T11:42:48.3025600+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/Admin/Home/Index   (ca22a1cb)
+2020-04-11T11:42:48.3170121+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:42:48.3349019+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T11:42:48.3376168+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:42:48.3416340+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.8226ms. (50a9e262)
+2020-04-11T11:42:48.3502326+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:42:48.4473583+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:42:48.5150466+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T11:42:48.5988352+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 255.1774ms. (f66409e9)
+2020-04-11T11:42:48.6066557+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" in 287.1821ms (afa2e885)
+2020-04-11T11:42:48.6099765+07:00 80000005-0001-fc00-b63f-84710c7967bb [INF] Request finished in 308.735ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:42:49.1455730+07:00 8000000e-0002-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/lib/mustache/mustache.js   (ca22a1cb)
+2020-04-11T11:42:49.1866492+07:00 8000000e-0002-fc00-b63f-84710c7967bb [INF] Sending file. Request path: '"/lib/mustache/mustache.js"'. Physical path: '"D:\American English File\ShopMart22\ShopMart22\wwwroot\lib\mustache\mustache.js"' (27b0a520)
+2020-04-11T11:42:49.1932269+07:00 8000000e-0002-fc00-b63f-84710c7967bb [INF] Request finished in 69.0823ms 200 application/javascript (791a596a)
+2020-04-11T11:42:49.2207886+07:00 80000011-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/lib/bootbox/bootbox.js   (ca22a1cb)
+2020-04-11T11:42:49.2250201+07:00 80000011-0000-fe00-b63f-84710c7967bb [INF] The file "/lib/bootbox/bootbox.js" was not modified (f1f8d725)
+2020-04-11T11:42:49.2307574+07:00 80000011-0000-fe00-b63f-84710c7967bb [INF] Request finished in 6.7906ms 304 application/javascript (791a596a)
+2020-04-11T11:42:52.6235421+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/index   (ca22a1cb)
+2020-04-11T11:42:52.6306337+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:42:52.6332234+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T11:42:52.6362928+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:42:52.6391213+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.425ms. (50a9e262)
+2020-04-11T11:42:52.6460692+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:42:52.6541000+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:42:52.6648842+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T11:42:52.6783792+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 36.9062ms. (f66409e9)
+2020-04-11T11:42:52.6812336+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" in 48.3387ms (afa2e885)
+2020-04-11T11:42:52.6841959+07:00 80000013-0000-fe00-b63f-84710c7967bb [INF] Request finished in 63.9204ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:43:44.9225896+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/getall   (ca22a1cb)
+2020-04-11T11:43:44.9270576+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:43:44.9292067+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T11:43:44.9318568+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:44:09.3554245+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:44:23.6637892+07:00 80000010-0002-fc00-b63f-84710c7967bb [WRN] The Include operation for navigation '"[x].ProductCategory"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2020-04-11T11:44:23.8234153+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("85"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+ORDER BY [x].[Id], [x.ProductCategory].[Id]" (0723d8ff)
+2020-04-11T11:44:23.9662534+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[Id], [t].[Id0]" (0723d8ff)
+2020-04-11T11:46:12.9539651+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 148017.175ms. (50a9e262)
+2020-04-11T11:46:12.9558571+07:00 80000004-0002-fa00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/lib/bootstrap/dist/css/bootstrap.min.css.map   (ca22a1cb)
+2020-04-11T11:46:12.9641473+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[ShopMart22.Application.ViewModels.Product.ProductViewModel, ShopMart22.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-11T11:46:12.9663935+07:00 80000004-0002-fa00-b63f-84710c7967bb [INF] The file "/lib/bootstrap/dist/css/bootstrap.min.css.map" was not modified (f1f8d725)
+2020-04-11T11:46:12.9687724+07:00 80000007-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map   (ca22a1cb)
+2020-04-11T11:46:12.9711942+07:00 80000004-0002-fa00-b63f-84710c7967bb [INF] Request finished in 18.272ms 304 text/plain (791a596a)
+2020-04-11T11:46:12.9721803+07:00 80000007-0001-fc00-b63f-84710c7967bb [INF] The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" was not modified (f1f8d725)
+2020-04-11T11:46:12.9823386+07:00 80000007-0001-fc00-b63f-84710c7967bb [INF] Request finished in 7.0019ms 304 text/plain (791a596a)
+2020-04-11T11:46:13.0220787+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" in 148091.7232ms (afa2e885)
+2020-04-11T11:46:13.0259778+07:00 80000010-0002-fc00-b63f-84710c7967bb [INF] Request finished in 148104.6976ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-11T11:46:53.9376578+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/   (ca22a1cb)
+2020-04-11T11:46:54.1538112+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:46:54.1714364+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:46:54.1800176+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 2.2916ms. (50a9e262)
+2020-04-11T11:46:54.2061447+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:46:54.4195958+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 224.3061ms. (f66409e9)
+2020-04-11T11:46:54.4232878+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Controllers.HomeController.Index (ShopMart22)" in 265.9398ms (afa2e885)
+2020-04-11T11:46:54.4344663+07:00 80000008-0001-ff00-b63f-84710c7967bb [INF] Request finished in 502.6191ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:47:13.1359836+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T11:47:13.1441705+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:47:13.1489924+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:47:13.1542836+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.3837ms. (50a9e262)
+2020-04-11T11:47:13.1751561+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:47:13.2405250+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 83.5439ms. (f66409e9)
+2020-04-11T11:47:13.2438087+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 96.5185ms (afa2e885)
+2020-04-11T11:47:13.2473732+07:00 8000000a-0001-ff00-b63f-84710c7967bb [INF] Request finished in 112.7449ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:47:14.2306444+07:00 80000019-0000-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T11:47:14.2337349+07:00 80000019-0000-f900-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:47:14.2396278+07:00 80000019-0000-f900-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:47:14.2424561+07:00 80000019-0000-f900-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0353ms. (50a9e262)
+2020-04-11T11:47:14.2450004+07:00 80000019-0000-f900-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:47:14.2504190+07:00 80000019-0000-f900-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 5.4807ms. (f66409e9)
+2020-04-11T11:47:14.2563962+07:00 80000019-0000-f900-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 16.7545ms (afa2e885)
+2020-04-11T11:47:14.2585901+07:00 80000019-0000-f900-b63f-84710c7967bb [INF] Request finished in 28.6505ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:47:21.7500861+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44375/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-04-11T11:47:21.7837873+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(ShopMart22.Models.AccountViewModels.LoginViewModel)" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:47:21.8530758+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:47:21.8792304+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:47:21.9574434+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Executed DbCommand ("14"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-04-11T11:47:22.1930892+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Executed DbCommand ("8"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-04-11T11:47:22.2612960+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T11:47:22.2843051+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-04-11T11:47:22.3140988+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-04-11T11:47:22.3243118+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T11:47:22.3368273+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-04-11T11:47:22.3425660+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-04-11T11:47:22.3479079+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 492.6393ms. (50a9e262)
+2020-04-11T11:47:22.3603776+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"ShopMart22.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-04-11T11:47:22.4213706+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" in 633.6004ms (afa2e885)
+2020-04-11T11:47:22.4326396+07:00 8000001b-0000-f900-b63f-84710c7967bb [INF] Request finished in 683.0047ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-11T11:47:22.4836629+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/Admin/Home/Index   (ca22a1cb)
+2020-04-11T11:47:22.4991715+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:47:22.5179804+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T11:47:22.5242838+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:47:22.5275091+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.7974ms. (50a9e262)
+2020-04-11T11:47:22.5347104+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:47:22.6255872+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:47:22.6863010+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T11:47:22.7716328+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 240.2355ms. (f66409e9)
+2020-04-11T11:47:22.7810640+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" in 279.6532ms (afa2e885)
+2020-04-11T11:47:22.7838390+07:00 8000000c-0001-ff00-b63f-84710c7967bb [INF] Request finished in 300.4988ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:47:30.2762554+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/index   (ca22a1cb)
+2020-04-11T11:47:30.2827674+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:47:30.2871419+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T11:47:30.2904824+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:47:30.2929527+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4759ms. (50a9e262)
+2020-04-11T11:47:30.2989029+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:47:30.3101845+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:47:30.3159975+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T11:47:30.3285320+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 33.1924ms. (f66409e9)
+2020-04-11T11:47:30.3314021+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" in 46.0987ms (afa2e885)
+2020-04-11T11:47:30.3346990+07:00 80000012-0002-fc00-b63f-84710c7967bb [INF] Request finished in 59.8163ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:47:41.4146670+07:00 8000000e-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/getall   (ca22a1cb)
+2020-04-11T11:47:41.4208452+07:00 8000000e-0003-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:47:41.4233280+07:00 8000000e-0003-fe00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T11:47:41.4262381+07:00 8000000e-0003-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:47:51.0858620+07:00 8000000e-0003-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:47:51.1264470+07:00 8000000e-0003-fe00-b63f-84710c7967bb [WRN] The Include operation for navigation '"[x].ProductCategory"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2020-04-11T11:47:51.2166702+07:00 8000000e-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+ORDER BY [x].[Id], [x.ProductCategory].[Id]" (0723d8ff)
+2020-04-11T11:47:51.2369124+07:00 8000000e-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[Id], [t].[Id0]" (0723d8ff)
+2020-04-11T11:55:21.9200220+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/   (ca22a1cb)
+2020-04-11T11:55:22.1441831+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:55:22.1634618+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:55:22.1730431+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.9348ms. (50a9e262)
+2020-04-11T11:55:22.2047126+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:55:22.4661782+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 278.8489ms. (f66409e9)
+2020-04-11T11:55:22.4714655+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Controllers.HomeController.Index (ShopMart22)" in 322.6711ms (afa2e885)
+2020-04-11T11:55:22.4884541+07:00 80000008-0003-fd00-b63f-84710c7967bb [INF] Request finished in 572.6052ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:56:24.1815622+07:00 80000016-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T11:56:24.1972007+07:00 80000016-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:56:24.2012124+07:00 80000016-0000-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:56:24.2054225+07:00 80000016-0000-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6802ms. (50a9e262)
+2020-04-11T11:56:24.2198713+07:00 80000016-0000-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:56:24.2838180+07:00 80000016-0000-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 76.002ms. (f66409e9)
+2020-04-11T11:56:24.2861771+07:00 80000016-0000-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 86.7473ms (afa2e885)
+2020-04-11T11:56:24.2886992+07:00 80000016-0000-fe00-b63f-84710c7967bb [INF] Request finished in 113.712ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:56:26.0415760+07:00 8000000e-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T11:56:26.0446403+07:00 8000000e-0001-ff00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:56:26.0488092+07:00 8000000e-0001-ff00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:56:26.0521168+07:00 8000000e-0001-ff00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1068ms. (50a9e262)
+2020-04-11T11:56:26.0544375+07:00 8000000e-0001-ff00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:56:26.0585217+07:00 8000000e-0001-ff00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 4.4008ms. (f66409e9)
+2020-04-11T11:56:26.0609140+07:00 8000000e-0001-ff00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 13.9031ms (afa2e885)
+2020-04-11T11:56:26.0635144+07:00 8000000e-0001-ff00-b63f-84710c7967bb [INF] Request finished in 22.304ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:56:37.3414249+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44375/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-04-11T11:56:37.3767026+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(ShopMart22.Models.AccountViewModels.LoginViewModel)" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:56:37.4320876+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:56:37.4692239+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:56:37.5491368+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("14"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-04-11T11:56:37.8263776+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-04-11T11:56:37.8880113+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T11:56:37.9136626+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-04-11T11:56:37.9440446+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-04-11T11:56:37.9541970+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T11:56:37.9662637+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-04-11T11:56:37.9717280+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-04-11T11:56:37.9767346+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 542.5514ms. (50a9e262)
+2020-04-11T11:56:37.9884732+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"ShopMart22.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-04-11T11:56:38.0491686+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" in 670.3684ms (afa2e885)
+2020-04-11T11:56:38.0579927+07:00 80000014-0002-fc00-b63f-84710c7967bb [INF] Request finished in 716.7479ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-11T11:56:38.0912650+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/Admin/Home/Index   (ca22a1cb)
+2020-04-11T11:56:38.1038766+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:56:38.1255740+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T11:56:38.1281650+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:56:38.1315715+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.9791ms. (50a9e262)
+2020-04-11T11:56:38.1412942+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:56:38.2036739+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:56:38.2519700+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T11:56:38.3227790+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 189.1608ms. (f66409e9)
+2020-04-11T11:56:38.3303103+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" in 224.0157ms (afa2e885)
+2020-04-11T11:56:38.3334040+07:00 80000016-0002-fc00-b63f-84710c7967bb [INF] Request finished in 243.7829ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:56:41.8432514+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/index   (ca22a1cb)
+2020-04-11T11:56:41.8504857+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:56:41.8535461+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T11:56:41.8569371+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:56:41.8594407+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4587ms. (50a9e262)
+2020-04-11T11:56:41.8669721+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:56:41.8757053+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:56:41.8826114+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T11:56:41.8938029+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 32.3898ms. (f66409e9)
+2020-04-11T11:56:41.8979197+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" in 43.4682ms (afa2e885)
+2020-04-11T11:56:41.9010909+07:00 80000010-0001-ff00-b63f-84710c7967bb [INF] Request finished in 57.8053ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:56:53.3536758+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/getall   (ca22a1cb)
+2020-04-11T11:56:53.3584433+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:56:53.3612579+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T11:56:53.3660009+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:56:59.1146763+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T11:56:59.1483369+07:00 80000012-0001-ff00-b63f-84710c7967bb [WRN] The Include operation for navigation '"[x].ProductCategory"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2020-04-11T11:56:59.2422182+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+ORDER BY [x].[Id], [x.ProductCategory].[Id]" (0723d8ff)
+2020-04-11T11:56:59.2628515+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[Id], [t].[Id0]" (0723d8ff)
+2020-04-11T11:57:13.5661826+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 20197.5858ms. (50a9e262)
+2020-04-11T11:57:13.5687833+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[ShopMart22.Application.ViewModels.Product.ProductViewModel, ShopMart22.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-11T11:57:13.6021794+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" in 20241.5466ms (afa2e885)
+2020-04-11T11:57:13.6048986+07:00 80000012-0001-ff00-b63f-84710c7967bb [INF] Request finished in 20251.1383ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-11T11:58:07.4164449+07:00 8000001d-0000-f900-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/   (ca22a1cb)
+2020-04-11T11:58:07.6449892+07:00 8000001d-0000-f900-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:58:07.6666049+07:00 8000001d-0000-f900-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:58:07.6823449+07:00 8000001d-0000-f900-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 4.1654ms. (50a9e262)
+2020-04-11T11:58:07.7642747+07:00 8000001d-0000-f900-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T11:58:08.1002703+07:00 8000001d-0000-f900-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 393.6333ms. (f66409e9)
+2020-04-11T11:58:08.1046946+07:00 8000001d-0000-f900-b63f-84710c7967bb [INF] Executed action "ShopMart22.Controllers.HomeController.Index (ShopMart22)" in 456.7005ms (afa2e885)
+2020-04-11T11:58:08.1191032+07:00 8000001d-0000-f900-b63f-84710c7967bb [INF] Request finished in 709.2988ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T11:59:59.6734754+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/   (ca22a1cb)
+2020-04-11T11:59:59.8793120+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T11:59:59.9009934+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T11:59:59.9134476+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 3.7209ms. (50a9e262)
+2020-04-11T11:59:59.9403024+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:00:00.1212453+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 190.4683ms. (f66409e9)
+2020-04-11T12:00:00.1238256+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Controllers.HomeController.Index (ShopMart22)" in 242.3501ms (afa2e885)
+2020-04-11T12:00:00.1376708+07:00 80000004-0002-fd00-b63f-84710c7967bb [INF] Request finished in 469.3897ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:00:45.7634224+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T12:00:45.7824128+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:00:45.7887890+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:00:45.7928625+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.436ms. (50a9e262)
+2020-04-11T12:00:45.8145223+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:00:45.8671413+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 71.6126ms. (f66409e9)
+2020-04-11T12:00:45.8694021+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 84.2105ms (afa2e885)
+2020-04-11T12:00:45.8717957+07:00 80000006-0002-fd00-b63f-84710c7967bb [INF] Request finished in 113.1586ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:00:46.3982817+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T12:00:46.4015907+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:00:46.4042991+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:00:46.4064894+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0451ms. (50a9e262)
+2020-04-11T12:00:46.4088330+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:00:46.4154856+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 5.5812ms. (f66409e9)
+2020-04-11T12:00:46.4178454+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 13.9315ms (afa2e885)
+2020-04-11T12:00:46.4221376+07:00 80000008-0002-fd00-b63f-84710c7967bb [INF] Request finished in 24.9065ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:00:56.4855830+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44375/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-04-11T12:00:56.5153072+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(ShopMart22.Models.AccountViewModels.LoginViewModel)" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:00:56.5709915+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:00:56.5984423+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:00:56.6804076+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("13"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-04-11T12:00:56.8942539+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-04-11T12:00:56.9472091+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T12:00:56.9689326+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-04-11T12:00:56.9951173+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-04-11T12:00:57.0043515+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T12:00:57.0184552+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-04-11T12:00:57.0276570+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-04-11T12:00:57.0342238+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 460.8728ms. (50a9e262)
+2020-04-11T12:00:57.0500633+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"ShopMart22.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-04-11T12:00:57.1036567+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" in 586.3568ms (afa2e885)
+2020-04-11T12:00:57.1125596+07:00 80000019-0000-fe00-b63f-84710c7967bb [INF] Request finished in 627.2467ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-11T12:00:57.1576973+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/Admin/Home/Index   (ca22a1cb)
+2020-04-11T12:00:57.1739408+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:00:57.1921431+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:00:57.1956468+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:00:57.1986774+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.7192ms. (50a9e262)
+2020-04-11T12:00:57.2047381+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:00:57.2798908+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:00:57.3242476+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T12:00:57.4178962+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 216.9313ms. (f66409e9)
+2020-04-11T12:00:57.4286876+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" in 250.9693ms (afa2e885)
+2020-04-11T12:00:57.4317405+07:00 8000001b-0000-fe00-b63f-84710c7967bb [INF] Request finished in 275.1604ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:01:01.7218241+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/index   (ca22a1cb)
+2020-04-11T12:01:01.7295385+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:01:01.7324438+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:01:01.7356578+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:01:01.7385333+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6732ms. (50a9e262)
+2020-04-11T12:01:01.7466808+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:01:01.7567274+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:01:01.7727707+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T12:01:01.7906741+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 49.7702ms. (f66409e9)
+2020-04-11T12:01:01.7954771+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" in 61.5624ms (afa2e885)
+2020-04-11T12:01:01.7984938+07:00 80000011-0003-fe00-b63f-84710c7967bb [INF] Request finished in 80.2084ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:01:01.8883683+07:00 80000013-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/app/controllers/product/index.js   (ca22a1cb)
+2020-04-11T12:01:01.9100153+07:00 80000013-0003-fe00-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/controllers/product/index.js"'. Physical path: '"D:\American English File\ShopMart22\ShopMart22\wwwroot\app\controllers\product\index.js"' (27b0a520)
+2020-04-11T12:01:01.9143841+07:00 80000013-0003-fe00-b63f-84710c7967bb [INF] Request finished in 24.0988ms 200 application/javascript (791a596a)
+2020-04-11T12:01:01.9902423+07:00 8000001d-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/GetAll   (ca22a1cb)
+2020-04-11T12:01:01.9963075+07:00 8000001d-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:01:01.9989550+07:00 8000001d-0000-fe00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:01:02.0031660+07:00 8000001d-0000-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:01:08.3430768+07:00 8000001d-0000-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:01:08.3643290+07:00 8000001d-0000-fe00-b63f-84710c7967bb [WRN] The Include operation for navigation '"[x].ProductCategory"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2020-04-11T12:01:08.4278335+07:00 8000001d-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+ORDER BY [x].[Id], [x.ProductCategory].[Id]" (0723d8ff)
+2020-04-11T12:01:08.4462956+07:00 8000001d-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[Id], [t].[Id0]" (0723d8ff)
+2020-04-11T12:02:16.3197376+07:00 8000001d-0000-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 74297.693ms. (50a9e262)
+2020-04-11T12:02:16.3255881+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/index   (ca22a1cb)
+2020-04-11T12:02:16.3286131+07:00 8000001d-0000-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[ShopMart22.Application.ViewModels.Product.ProductViewModel, ShopMart22.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-11T12:02:16.3307150+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:02:16.3337969+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:02:16.3362961+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:02:16.3403442+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0334ms. (50a9e262)
+2020-04-11T12:02:16.3466719+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:02:16.3526455+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:02:16.3596944+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T12:02:16.3651817+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 21.233ms. (f66409e9)
+2020-04-11T12:02:19.0195381+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" in 34.5985ms (afa2e885)
+2020-04-11T12:02:19.0645239+07:00 8000000a-0002-fd00-b63f-84710c7967bb [INF] Request finished in 2720.3477ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:02:20.1812546+07:00 8000000c-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/GetAll   (ca22a1cb)
+2020-04-11T12:02:20.3621675+07:00 8000000c-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:02:20.3954482+07:00 8000000c-0002-fd00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:02:20.4595684+07:00 8000001f-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/favicon.ico   (ca22a1cb)
+2020-04-11T12:02:20.4609285+07:00 8000000c-0002-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:02:21.1817266+07:00 8000001f-0000-fe00-b63f-84710c7967bb [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\American English File\ShopMart22\ShopMart22\wwwroot\favicon.ico"' (27b0a520)
+2020-04-11T12:02:21.1830202+07:00 8000000c-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:02:21.2361847+07:00 8000001f-0000-fe00-b63f-84710c7967bb [INF] Request finished in 811.0292ms 200 image/x-icon (791a596a)
+2020-04-11T12:02:21.4303834+07:00 8000000c-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("161"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+ORDER BY [x].[Id], [x.ProductCategory].[Id]" (0723d8ff)
+2020-04-11T12:02:21.5074834+07:00 8000000c-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[Id], [t].[Id0]" (0723d8ff)
+2020-04-11T12:02:23.1066529+07:00 8000000c-0002-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2384.5289ms. (50a9e262)
+2020-04-11T12:02:23.1326720+07:00 8000000c-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[ShopMart22.Application.ViewModels.Product.ProductViewModel, ShopMart22.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-11T12:03:41.5858453+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/   (ca22a1cb)
+2020-04-11T12:03:41.8017099+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:03:41.8247948+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:03:41.8357199+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 2.8399ms. (50a9e262)
+2020-04-11T12:03:41.8739438+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:03:42.0784601+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 227.1629ms. (f66409e9)
+2020-04-11T12:03:42.0809278+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Controllers.HomeController.Index (ShopMart22)" in 276.9336ms (afa2e885)
+2020-04-11T12:03:42.0911860+07:00 8000000a-0003-fd00-b63f-84710c7967bb [INF] Request finished in 511.6966ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:03:58.3681870+07:00 80000021-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T12:03:58.3764186+07:00 80000021-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:03:58.3846120+07:00 80000021-0000-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:03:58.3890258+07:00 80000021-0000-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5ms. (50a9e262)
+2020-04-11T12:03:58.4169422+07:00 80000021-0000-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:03:58.4652255+07:00 80000021-0000-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 74.0414ms. (f66409e9)
+2020-04-11T12:03:58.4677388+07:00 80000021-0000-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 88.9293ms (afa2e885)
+2020-04-11T12:03:58.4712537+07:00 80000021-0000-fe00-b63f-84710c7967bb [INF] Request finished in 102.6341ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:03:59.6350861+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T12:03:59.6379179+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:03:59.6408028+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:03:59.6428777+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0319ms. (50a9e262)
+2020-04-11T12:03:59.6451783+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:03:59.6527465+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 7.5542ms. (f66409e9)
+2020-04-11T12:03:59.6552019+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 14.8663ms (afa2e885)
+2020-04-11T12:03:59.6574303+07:00 8000000c-0003-fd00-b63f-84710c7967bb [INF] Request finished in 25.7307ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:04:08.2932539+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44375/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-04-11T12:04:08.3236629+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(ShopMart22.Models.AccountViewModels.LoginViewModel)" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:04:08.3868123+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:04:08.4104080+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:04:08.4852238+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("13"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-04-11T12:04:08.6992715+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-04-11T12:04:08.7874384+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("13"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T12:04:08.8142635+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-04-11T12:04:08.8415971+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-04-11T12:04:08.8527903+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T12:04:08.8656574+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-04-11T12:04:08.8715224+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-04-11T12:04:08.8783520+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 489.674ms. (50a9e262)
+2020-04-11T12:04:08.8899852+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"ShopMart22.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-04-11T12:04:08.9419777+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" in 616.4163ms (afa2e885)
+2020-04-11T12:04:08.9506670+07:00 8000000e-0002-fd00-b63f-84710c7967bb [INF] Request finished in 657.6666ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-11T12:04:08.9933749+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/Admin/Home/Index   (ca22a1cb)
+2020-04-11T12:04:09.0074101+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:04:09.0288817+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:04:09.0343453+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:04:09.0373900+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.9146ms. (50a9e262)
+2020-04-11T12:04:09.0438158+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:04:09.1057030+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:04:09.1471512+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T12:04:09.2394779+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 200.0701ms. (f66409e9)
+2020-04-11T12:04:09.2477472+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" in 237.3017ms (afa2e885)
+2020-04-11T12:04:09.2512572+07:00 80000014-0001-ff00-b63f-84710c7967bb [INF] Request finished in 258.0429ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:04:12.7759036+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/index   (ca22a1cb)
+2020-04-11T12:04:12.7845379+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:04:12.7871990+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:04:12.7907154+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:04:12.7932461+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5078ms. (50a9e262)
+2020-04-11T12:04:12.8005733+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:04:12.8096855+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:04:12.8170490+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T12:04:12.8283316+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 32.867ms. (f66409e9)
+2020-04-11T12:04:12.8339768+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" in 43.9652ms (afa2e885)
+2020-04-11T12:04:12.8366627+07:00 8000000e-0003-fd00-b63f-84710c7967bb [INF] Request finished in 62.9629ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:04:12.9129335+07:00 80000010-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/app/controllers/product/index.js   (ca22a1cb)
+2020-04-11T12:04:12.9230111+07:00 80000010-0003-fd00-b63f-84710c7967bb [INF] The file "/app/controllers/product/index.js" was not modified (f1f8d725)
+2020-04-11T12:04:12.9367046+07:00 80000010-0003-fd00-b63f-84710c7967bb [INF] Request finished in 17.6054ms 304 application/javascript (791a596a)
+2020-04-11T12:04:13.0224087+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/GetAll   (ca22a1cb)
+2020-04-11T12:04:13.0285900+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:04:13.0327363+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:04:13.0350692+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:04:13.0409437+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:04:13.1160629+07:00 80000012-0003-fd00-b63f-84710c7967bb [WRN] The Include operation for navigation '"[x].ProductCategory"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2020-04-11T12:04:13.2790217+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+ORDER BY [x].[Id], [x.ProductCategory].[Id]" (0723d8ff)
+2020-04-11T12:04:13.3145577+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[Id], [t].[Id0]" (0723d8ff)
+2020-04-11T12:04:13.3315848+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 292.898ms. (50a9e262)
+2020-04-11T12:04:13.3356291+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[ShopMart22.Application.ViewModels.Product.ProductViewModel, ShopMart22.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-11T12:04:13.3752863+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" in 342.7225ms (afa2e885)
+2020-04-11T12:04:13.3780478+07:00 80000012-0003-fd00-b63f-84710c7967bb [INF] Request finished in 355.5381ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-11T12:33:32.3945680+07:00 80000016-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/   (ca22a1cb)
+2020-04-11T12:33:32.5919165+07:00 80000016-0003-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:33:32.6091320+07:00 80000016-0003-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:33:32.6174494+07:00 80000016-0003-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 2.0575ms. (50a9e262)
+2020-04-11T12:33:32.6468648+07:00 80000016-0003-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:33:32.8232665+07:00 80000016-0003-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 189.2066ms. (f66409e9)
+2020-04-11T12:33:32.8263776+07:00 80000016-0003-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Controllers.HomeController.Index (ShopMart22)" in 231.8447ms (afa2e885)
+2020-04-11T12:33:32.8395656+07:00 80000016-0003-fe00-b63f-84710c7967bb [INF] Request finished in 450.3702ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:33:55.7064442+07:00 80000010-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T12:33:55.7243716+07:00 80000010-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:33:55.7284500+07:00 80000010-0002-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:33:55.7314992+07:00 80000010-0002-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5173ms. (50a9e262)
+2020-04-11T12:33:55.7499605+07:00 80000010-0002-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:33:55.8051790+07:00 80000010-0002-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 70.946ms. (f66409e9)
+2020-04-11T12:33:55.8077520+07:00 80000010-0002-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 80.9243ms (afa2e885)
+2020-04-11T12:33:55.8103046+07:00 80000010-0002-fd00-b63f-84710c7967bb [INF] Request finished in 110.5453ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:33:57.0224067+07:00 80000012-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin   (ca22a1cb)
+2020-04-11T12:33:57.0259918+07:00 80000012-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:33:57.0291124+07:00 80000012-0002-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:33:57.0314427+07:00 80000012-0002-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0286ms. (50a9e262)
+2020-04-11T12:33:57.0370215+07:00 80000012-0002-fd00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:33:57.0430507+07:00 80000012-0002-fd00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 8.7396ms. (f66409e9)
+2020-04-11T12:33:57.0455357+07:00 80000012-0002-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Index (ShopMart22)" in 16.9271ms (afa2e885)
+2020-04-11T12:33:57.0483661+07:00 80000012-0002-fd00-b63f-84710c7967bb [INF] Request finished in 25.4356ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:34:04.4962340+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 POST https://localhost:44375/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2020-04-11T12:34:04.5268689+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(ShopMart22.Models.AccountViewModels.LoginViewModel)" on controller "ShopMart22.Areas.Admin.Controllers.LoginController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:34:04.5905936+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:34:04.6124354+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:34:04.6902081+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("14"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2020-04-11T12:34:04.9056192+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("7"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2020-04-11T12:34:05.0280601+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("69"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T12:34:05.0501853+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2020-04-11T12:34:05.0761175+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("2"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2020-04-11T12:34:05.0860954+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2020-04-11T12:34:05.0982579+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2020-04-11T12:34:05.1042784+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] User logged in. (fdce0db4)
+2020-04-11T12:34:05.1093953+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 516.4515ms. (50a9e262)
+2020-04-11T12:34:05.1216997+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"ShopMart22.Utilities.Dtos.GenericResult"'. (8a1b66c8)
+2020-04-11T12:34:05.1867887+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.LoginController.Authen (ShopMart22)" in 650.0237ms (afa2e885)
+2020-04-11T12:34:05.2018538+07:00 80000014-0002-fd00-b63f-84710c7967bb [INF] Request finished in 705.0384ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-11T12:34:05.2505677+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/Admin/Home/Index   (ca22a1cb)
+2020-04-11T12:34:05.2624624+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.HomeController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:34:05.2812095+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:34:05.2852250+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:34:05.2880316+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.7322ms. (50a9e262)
+2020-04-11T12:34:05.2988049+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:34:05.3610795+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:34:05.4151298+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T12:34:05.4941753+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 204.1745ms. (f66409e9)
+2020-04-11T12:34:05.5016211+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.HomeController.Index (ShopMart22)" in 236.8439ms (afa2e885)
+2020-04-11T12:34:05.5043297+07:00 80000018-0003-fe00-b63f-84710c7967bb [INF] Request finished in 254.6287ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:34:08.8905492+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/index   (ca22a1cb)
+2020-04-11T12:34:08.8974081+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:34:08.9010348+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:34:08.9046868+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:34:08.9075931+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5243ms. (50a9e262)
+2020-04-11T12:34:08.9134045+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2020-04-11T12:34:08.9248704+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:34:08.9354841+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2020-04-11T12:34:08.9483365+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Executed ViewResult - view "Index" executed in 37.6186ms. (f66409e9)
+2020-04-11T12:34:08.9538135+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.Index (ShopMart22)" in 51.284ms (afa2e885)
+2020-04-11T12:34:08.9569712+07:00 8000001a-0003-fe00-b63f-84710c7967bb [INF] Request finished in 66.651ms 200 text/html; charset=utf-8 (791a596a)
+2020-04-11T12:34:09.0487708+07:00 80000023-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/app/controllers/product/index.js   (ca22a1cb)
+2020-04-11T12:34:09.0717610+07:00 80000023-0000-fe00-b63f-84710c7967bb [INF] Sending file. Request path: '"/app/controllers/product/index.js"'. Physical path: '"D:\American English File\ShopMart22\ShopMart22\wwwroot\app\controllers\product\index.js"' (27b0a520)
+2020-04-11T12:34:09.0744617+07:00 80000023-0000-fe00-b63f-84710c7967bb [INF] Request finished in 25.5979ms 200 application/javascript (791a596a)
+2020-04-11T12:34:09.1436366+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/admin/product/GetAll   (ca22a1cb)
+2020-04-11T12:34:09.1526213+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "ShopMart22.Areas.Admin.Controllers.ProductController" ("ShopMart22"). (122b2fdf)
+2020-04-11T12:34:09.1550944+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Authorization was successful. (0d575a54)
+2020-04-11T12:34:09.1576932+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Executing action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" - Validation state: Valid (dad538d7)
+2020-04-11T12:34:09.1626064+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=ShopMart22.Data.EF " (9958f5bb)
+2020-04-11T12:34:09.3210776+07:00 80000025-0000-fe00-b63f-84710c7967bb [WRN] The Include operation for navigation '"[x].ProductCategory"' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information. (10efaee6)
+2020-04-11T12:34:09.4441050+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+ORDER BY [x].[Id], [x.ProductCategory].[Id]" (0723d8ff)
+2020-04-11T12:34:09.5740714+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("111"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[Id], [t].[Id0]" (0723d8ff)
+2020-04-11T12:34:09.5928961+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Executed action method "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 433.1274ms. (50a9e262)
+2020-04-11T12:34:09.5957673+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[ShopMart22.Application.ViewModels.Product.ProductViewModel, ShopMart22.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-04-11T12:34:09.6304945+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Executed action "ShopMart22.Areas.Admin.Controllers.ProductController.GetAll (ShopMart22)" in 475.7087ms (afa2e885)
+2020-04-11T12:34:09.6345504+07:00 80000025-0000-fe00-b63f-84710c7967bb [INF] Request finished in 490.4363ms 200 application/json; charset=utf-8 (791a596a)
+2020-04-11T12:34:09.6921803+07:00 80000027-0000-fe00-b63f-84710c7967bb [INF] Request starting HTTP/2.0 GET https://localhost:44375/client-side/images/products/product-1.jpg   (ca22a1cb)
+2020-04-11T12:34:09.7284361+07:00 80000027-0000-fe00-b63f-84710c7967bb [INF] Request finished in 36.323ms 404  (791a596a)

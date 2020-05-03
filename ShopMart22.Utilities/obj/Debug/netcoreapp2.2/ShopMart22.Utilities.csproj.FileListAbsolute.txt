@@ -1,0 +1,9 @@
+D:\American English File\ShopMart22\ShopMart22.Utilities\bin\Debug\netcoreapp2.2\ShopMart22.Utilities.deps.json
+D:\American English File\ShopMart22\ShopMart22.Utilities\bin\Debug\netcoreapp2.2\ShopMart22.Utilities.dll
+D:\American English File\ShopMart22\ShopMart22.Utilities\bin\Debug\netcoreapp2.2\ShopMart22.Utilities.pdb
+D:\American English File\ShopMart22\ShopMart22.Utilities\obj\Debug\netcoreapp2.2\ShopMart22.Utilities.AssemblyInfoInputs.cache
+D:\American English File\ShopMart22\ShopMart22.Utilities\obj\Debug\netcoreapp2.2\ShopMart22.Utilities.AssemblyInfo.cs
+D:\American English File\ShopMart22\ShopMart22.Utilities\obj\Debug\netcoreapp2.2\ShopMart22.Utilities.dll
+D:\American English File\ShopMart22\ShopMart22.Utilities\obj\Debug\netcoreapp2.2\ShopMart22.Utilities.pdb
+D:\American English File\ShopMart22\ShopMart22.Utilities\obj\Debug\netcoreapp2.2\ShopMart22.Utilities.csproj.CoreCompileInputs.cache
+D:\American English File\ShopMart22\ShopMart22.Utilities\obj\Debug\netcoreapp2.2\ShopMart22.Utilities.csprojAssemblyReference.cache

@@ -1,0 +1,17 @@
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Application.deps.json
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Application.dll
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Application.pdb
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Data.dll
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Data.EF.dll
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Infrastructure.dll
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Utilities.dll
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Data.EF.pdb
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Data.pdb
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Utilities.pdb
+D:\American English File\ShopMart22\ShopMart22.Application\bin\Debug\netcoreapp3.1\ShopMart22.Infrastructure.pdb
+D:\American English File\ShopMart22\ShopMart22.Application\obj\Debug\netcoreapp3.1\ShopMart22.Application.csprojAssemblyReference.cache
+D:\American English File\ShopMart22\ShopMart22.Application\obj\Debug\netcoreapp3.1\ShopMart22.Application.AssemblyInfoInputs.cache
+D:\American English File\ShopMart22\ShopMart22.Application\obj\Debug\netcoreapp3.1\ShopMart22.Application.AssemblyInfo.cs
+D:\American English File\ShopMart22\ShopMart22.Application\obj\Debug\netcoreapp3.1\ShopMart22.Application.csproj.CopyComplete
+D:\American English File\ShopMart22\ShopMart22.Application\obj\Debug\netcoreapp3.1\ShopMart22.Application.dll
+D:\American English File\ShopMart22\ShopMart22.Application\obj\Debug\netcoreapp3.1\ShopMart22.Application.pdb

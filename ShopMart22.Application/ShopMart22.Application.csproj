@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopMart22.Data.EF\ShopMart22.Data.EF.csproj" />
+    <ProjectReference Include="..\ShopMart22.Data\ShopMart22.Data.csproj" />
+    <ProjectReference Include="..\ShopMart22.Utilities\ShopMart22.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
