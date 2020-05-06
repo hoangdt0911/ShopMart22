@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[6.1.1, )"
             },
+            "EPPlus.Core": {
+              "target": "Package",
+              "version": "[1.5.4, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

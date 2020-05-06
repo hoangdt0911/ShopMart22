@@ -135,6 +135,82 @@
         $('#btnSave').on('click', function (e) {
             saveProduct(e);
         });
+
+        $('#btn-import').on('click', function () {
+            $.ajax({
+                url: "/Admin/ProductCategory/GetAll",
+                type: 'GET',
+                dataType: 'json',
+                async: false,
+                success: function (response) {
+                    var data = [];
+                    $.each(response, function (i, item) {
+                        data.push({
+                            id: item.Id,
+                            text: item.Name,
+                            parentId: item.ParentId,
+                            sortOrder: item.SortOrder
+                        });
+                    });
+                    var arr = ShopMart22.unflattern(data);
+                    $('#ddlCategoryIdM').combotree({
+                        data: arr
+                    });
+
+                    $('#ddlCategoryIdImportExcel').combotree({
+                        data: arr
+                    });
+
+                }
+            });
+            $('#modal-import-excel').modal('show');
+        });
+
+        $('#btnImportExcel').on('click', function () {
+            var fileUpload = $("#fileInputExcel").get(0);
+            var files = fileUpload.files;
+
+            // Create FormData object  
+            var fileData = new FormData();
+            // Looping over all files and add it to FormData object  
+            for (var i = 0; i < files.length; i++) {
+                fileData.append("files", files[i]);
+            }
+            // Adding one more key to FormData object  
+            fileData.append('categoryId', $('#ddlCategoryIdImportExcel').combotree('getValue'));
+            $.ajax({
+                url: '/Admin/Product/ImportExcel',
+                type: 'POST',
+                data: fileData,
+                processData: false,  // tell jQuery not to process the data
+                contentType: false,  // tell jQuery not to set contentType
+                success: function (data) {
+                    $('#modal-import-excel').modal('hide');
+                    loadData();
+
+                }
+            });
+            return false;
+        });
+
+        $('#btn-export').on('click', function () {
+            $.ajax({
+                type: "POST",
+                url: "/Admin/Product/ExportExcel",
+                beforeSend: function () {
+                    ShopMart22.startLoading();
+                },
+                success: function (response) {
+                    window.location.href = response;
+                    ShopMart22.stopLoading();
+                },
+                error: function () {
+                    ShopMart22.notify('Has an error in progress', 'error');
+                    ShopMart22.stopLoading();
+                }
+            });
+        });
+
     }
 
     function registerControls() {
@@ -350,7 +426,7 @@
         $('#txtSeoAliasM').val('');
 
         CKEDITOR.instances.txtContent.setData('');
-        $('#ckStatusM').prop('checked', true);
+        $('#ckStatusM').prop('checked', false);
         $('#ckHotM').prop('checked', false);
         $('#ckShowHomeM').prop('checked', false);
 
