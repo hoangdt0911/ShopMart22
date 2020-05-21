@@ -1,10 +1,16 @@
 ﻿var productController = function () {
+    var quantityManagement = new QuantityManagement();
+    var imageManagement = new ImageManagement();
+    var wholePriceManagement = new WholePriceManagement();
 
     this.initialize = function () {
         loadCategories();
         loadData();
         registerEvents();
         registerControls();
+        quantityManagement.initialize();
+        imageManagement.initialize();
+        wholePriceManagement.initialize();
     }
 
     function registerEvents() {
@@ -108,28 +114,27 @@
         $('body').on('click', '.btn-delete', function (e) {
             e.preventDefault();
             var that = $(this).data('id');
-            ShopMart22.confirm('Are you sure to delete?', function () {
-                $.ajax({
-                    type: "POST",
-                    url: "/Admin/Product/Delete",
-                    data: { id: that },
-                    dataType: "json",
-                    beforeSend: function () {
-                        ShopMart22.startLoading();
-                    },
-                    success: function (response) {
-                        ShopMart22.notify('Delete successful', 'success');
-                        resetFormMaintainance();
-
-                        ShopMart22.stopLoading();
-                        loadData(true);
-                    },
-                    error: function (status) {
-                        ShopMart22.notify('Has an error in delete progress', 'error');
-                        ShopMart22.stopLoading();
-                    }
-                });
-            });
+            //ShopMart22.confirm('Are you sure to delete?', function () {
+            //    $.ajax({
+            //        type: "POST",
+            //        url: "/Admin/Product/Delete",
+            //        data: { id: that },
+            //        dataType: "json",
+            //        beforeSend: function () {
+            //            ShopMart22.startLoading();
+            //        },
+            //        success: function (response) {
+            //            ShopMart22.notify('Delete successful', 'success');
+            //            loadData(true);
+            //            ShopMart22.stopLoading();
+            //        },
+            //        error: function (status) {
+            //            ShopMart22.notify('Has an error in delete progress', 'error');
+            //            ShopMart22.stopLoading();
+            //        }
+            //    });
+            //});
+            deleteProduct(that);
         });
 
         $('#btnSave').on('click', function (e) {
@@ -351,7 +356,7 @@
         }
     }
 
-    function deleteProduct(id) {
+    function deleteProduct(that) {
         ShopMart22.confirm('Are you sure to delete?', function () {
             $.ajax({
                 type: "POST",
@@ -364,7 +369,25 @@
                 success: function (response) {
                     ShopMart22.notify('Delete successful', 'success');
                     ShopMart22.stopLoading();
-                    loadData();
+                    $.ajax({
+                        type: 'GET',
+                        data: {
+                            categoryId: $('#ddlCategorySearch').val(),
+                            keyword: $('#txtKeyword').val(),
+                            page: ShopMart22.configs.pageIndex,
+                            pageSize: ShopMart22.configs.pageSize
+                        },
+                        url: '/admin/product/GetAllPaging',
+                        dataType: 'json',
+                        success: function (respone) {
+                            respone.RowCount % 8 == 0 ? loadData(true) : loadData(false);
+                        },
+                        error: function (status) {
+                            console.log(status);
+                            ShopMart22.notify("Cannot loading data", "error");
+                        }
+                    });
+
                 },
                 error: function (status) {
                     ShopMart22.notify('Has an error in delete progress', 'error');
@@ -477,17 +500,15 @@
                         CreatedDate: ShopMart22.dateTimeFormatJson(item.DateCreated),
                         Status: ShopMart22.getStatus(item.Status)
                     });
-
-                    $('#lblTotalRecords').text(respone.RowCount);
-
-                    if (render != '') {
-                        $('#tbl-content').html(render);
-                    }
-
-                    wrapPaging(respone.RowCount, function () {
-                        loadData();
-                    }, isPageChanged);
                 });
+
+                $('#lblTotalRecords').text(respone.RowCount);
+
+                if (render != '') {
+                    $('#tbl-content').html(render);
+                }
+
+                wrapPaging(respone.RowCount, function () { loadData() }, isPageChanged);
             },
             error: function (status) {
                 console.log(status);
@@ -514,7 +535,7 @@
             last: 'Cuối',
             onPageClick: function (event, p) {
                 ShopMart22.configs.pageIndex = p;
-                setTimeout(callBack(), 200);
+                setTimeout(callBack, 200);
             }
         });
     }

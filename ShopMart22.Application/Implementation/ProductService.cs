@@ -20,22 +20,34 @@ namespace ShopMart22.Application.Implementation
 {
     public class ProductService : IProductService
     {
-        IProductRepository _productRepository;
+        private IRepository<Product, int> _productRepository;
 
-        ITagRepository _tagRepository;
+        private IRepository<Tag, string> _tagRepository;
 
-        IProductTagRepository _productTagRepository;
+        private IRepository<ProductTag, int> _productTagRepository;
 
-        IUnitOfWork _unitOfWork;
+        private IRepository<ProductQuantity, int> _productQuantityRepository;
 
-        //private IRepository<Tag, string> _tagRepository;
+        private IRepository<ProductImage, int> _productImageRepository;
 
-        public ProductService(IProductRepository productRepository, ITagRepository tagRepository,
-            IProductTagRepository productTagRepository, IUnitOfWork unitOfWork)
+        private IRepository<WholePrice, int> _wholePriceRepository;
+
+        private IUnitOfWork _unitOfWork;
+
+        public ProductService(IRepository<Product, int> productRepository,
+            IRepository<Tag, string> tagRepository,
+            IRepository<ProductQuantity, int> productQuantityRepository,
+            IRepository<ProductImage, int> productImageRepository,
+            IRepository<WholePrice, int> wholePriceRepository,
+        IUnitOfWork unitOfWork,
+        IRepository<ProductTag, int> productTagRepository)
         {
             _productRepository = productRepository;
             _tagRepository = tagRepository;
+            _productQuantityRepository = productQuantityRepository;
             _productTagRepository = productTagRepository;
+            _wholePriceRepository = wholePriceRepository;
+            _productImageRepository = productImageRepository;
             _unitOfWork = unitOfWork;
         }
 
@@ -66,6 +78,8 @@ namespace ShopMart22.Application.Implementation
                     productTags.Add(productTag);
                 }
                 Product product = Mapper.Map<ProductViewModel, Product>(productVm);
+                product.DateCreated = DateTime.Now;
+                product.DateModified = DateTime.Now;
                 foreach (var productTag in productTags)
                 {
                     product.ProductTags.Add(productTag);
@@ -75,10 +89,54 @@ namespace ShopMart22.Application.Implementation
             return productVm;
         }
 
+        public void AddImages(int productId, string[] images)
+        {
+            _productImageRepository.RemoveMultiple(_productImageRepository.FindAll(x => x.ProductId == productId).ToList());
+            foreach (var image in images)
+            {
+                _productImageRepository.Add(new ProductImage()
+                {
+                    Path = image,
+                    ProductId = productId,
+                    Caption = string.Empty
+                });
+            }
+        }
+
+        public void AddQuantity(int productId, List<ProductQuantityViewModel> quantities)
+        {
+            _productQuantityRepository.RemoveMultiple(_productQuantityRepository.FindAll(x => x.ProductId == productId).ToList());
+            foreach (var quantity in quantities)
+            {
+                _productQuantityRepository.Add(new ProductQuantity()
+                {
+                    ProductId = productId,
+                    ColorId = quantity.ColorId,
+                    SizeId = quantity.SizeId,
+                    Quantity = quantity.Quantity
+                });
+            }
+        }
+
+        public void AddWholePrice(int productId, List<WholePriceViewModel> wholePrices)
+        {
+            _wholePriceRepository.RemoveMultiple(_wholePriceRepository.FindAll(x => x.ProductId == productId).ToList());
+            foreach (var wholePrice in wholePrices)
+            {
+                _wholePriceRepository.Add(new WholePrice()
+                {
+                    ProductId = productId,
+                    FromQuantity = wholePrice.FromQuantity,
+                    ToQuantity = wholePrice.ToQuantity,
+                    Price = wholePrice.Price
+                });
+            }
+        }
+
         public void Delete(int id)
         {
             _productRepository.Remove(id);
-        }
+        }      
 
         public void Dispose()
         {
@@ -127,6 +185,37 @@ namespace ShopMart22.Application.Implementation
         public ProductViewModel GetById(int id)
         {
             return Mapper.Map<Product, ProductViewModel>(_productRepository.FindById(id));
+        }
+
+        public List<ProductViewModel> GetHotProduct(int top)
+        {
+            return _productRepository.FindAll(x => x.Status == Status.Active && x.HotFlag == true)
+                .OrderByDescending(x => x.DateCreated)
+                .Take(top)
+                .ProjectTo<ProductViewModel>()
+                .ToList();
+        }
+
+        public List<ProductImageViewModel> GetImages(int productId)
+        {
+            return _productImageRepository.FindAll(x => x.ProductId == productId)
+                .ProjectTo<ProductImageViewModel>().ToList();
+        }
+
+        public List<ProductViewModel> GetLastest(int top)
+        {
+            return _productRepository.FindAll(x => x.Status == Status.Active).OrderByDescending(x => x.DateCreated)
+                .Take(top).ProjectTo<ProductViewModel>().ToList();
+        }
+
+        public List<ProductQuantityViewModel> GetQuantities(int productId)
+        {
+            return _productQuantityRepository.FindAll(x => x.ProductId == productId).ProjectTo<ProductQuantityViewModel>().ToList();
+        }
+
+        public List<WholePriceViewModel> GetWholePrices(int productId)
+        {
+            return _wholePriceRepository.FindAll(x => x.ProductId == productId).ProjectTo<WholePriceViewModel>().ToList();
         }
 
         public void ImportExcel(string filePath, int categoryId)
@@ -215,6 +304,8 @@ namespace ShopMart22.Application.Implementation
             }
 
             var product = Mapper.Map<ProductViewModel, Product>(productVm);
+            product.DateCreated = DateTime.Now;
+            product.DateModified = DateTime.Now;
             foreach (var productTag in productTags)
             {
                 product.ProductTags.Add(productTag);

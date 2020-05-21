@@ -23,6 +23,21 @@ using ShopMart22.Models;
 
 #line default
 #line hidden
+#line 3 "D:\American English File\ShopMart22\ShopMart22\Views\_ViewImports.cshtml"
+using ShopMart22.Models.AccountViewModels;
+
+#line default
+#line hidden
+#line 4 "D:\American English File\ShopMart22\ShopMart22\Views\_ViewImports.cshtml"
+using ShopMart22.Application.ViewModels.Product;
+
+#line default
+#line hidden
+#line 5 "D:\American English File\ShopMart22\ShopMart22\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Mvc.Localization;
+
+#line default
+#line hidden
 #line 1 "D:\American English File\ShopMart22\ShopMart22\Views\Shared\_LoginPartial.cshtml"
 using Microsoft.AspNetCore.Identity;
 
@@ -34,7 +49,7 @@ using ShopMart22.Data.Entities;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5b61cd9e8ff4a47c54d8c96f0f8a8efc4fc37339", @"/Views/Shared/_LoginPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bca35cb2dd5833dac330d7a8e06e66fd05e23262", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"50b54c65057c51ab6af7f9cac971ac535b1fae13", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__LoginPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("nav-link text-dark"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -82,7 +97,7 @@ using ShopMart22.Data.Entities;
             WriteLiteral("        <li class=\"nav-item\">\r\n            ");
             EndContext();
             BeginContext(278, 128, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b61cd9e8ff4a47c54d8c96f0f8a8efc4fc373396761", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b61cd9e8ff4a47c54d8c96f0f8a8efc4fc373397246", async() => {
                 BeginContext(376, 6, true);
                 WriteLiteral("Hello ");
                 EndContext();
@@ -118,7 +133,7 @@ using ShopMart22.Data.Entities;
             WriteLiteral("\r\n        </li>\r\n        <li class=\"nav-item\">\r\n            ");
             EndContext();
             BeginContext(466, 259, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b61cd9e8ff4a47c54d8c96f0f8a8efc4fc373399013", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b61cd9e8ff4a47c54d8c96f0f8a8efc4fc373399498", async() => {
                 BeginContext(609, 109, true);
                 WriteLiteral("\r\n                <button type=\"submit\" class=\"nav-link btn btn-link text-dark\">Logout</button>\r\n            ");
                 EndContext();
@@ -168,7 +183,7 @@ using ShopMart22.Data.Entities;
             WriteLiteral("        <li class=\"nav-item\">\r\n            ");
             EndContext();
             BeginContext(809, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b61cd9e8ff4a47c54d8c96f0f8a8efc4fc3733912436", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b61cd9e8ff4a47c54d8c96f0f8a8efc4fc3733912921", async() => {
                 BeginContext(888, 8, true);
                 WriteLiteral("Register");
                 EndContext();
@@ -193,7 +208,7 @@ using ShopMart22.Data.Entities;
             WriteLiteral("\r\n        </li>\r\n        <li class=\"nav-item\">\r\n            ");
             EndContext();
             BeginContext(960, 85, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b61cd9e8ff4a47c54d8c96f0f8a8efc4fc3733914154", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b61cd9e8ff4a47c54d8c96f0f8a8efc4fc3733914639", async() => {
                 BeginContext(1036, 5, true);
                 WriteLiteral("Login");
                 EndContext();

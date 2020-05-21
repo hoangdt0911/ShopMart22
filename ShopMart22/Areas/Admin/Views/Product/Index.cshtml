@@ -8,6 +8,9 @@
 }
 @section Scripts{
     <script src="~/lib/jquery-easyui-1.9.4/jquery.easyui.min.js"></script>
+    <script src="~/app/controllers/product/quantity-management.js"></script>
+    <script src="~/app/controllers/product/image-management.js"></script>
+    <script src="~/app/controllers/product/whole-price-management.js"></script>
     <script src="~/app/controllers/product/index.js"></script>
     <script>
         var product = new productController();
@@ -29,7 +32,7 @@
                 </span>
             </div>
         </div>
-        <div class="col-md-3 col-sm-12   form-group pull-right top_search">
+        <div class="col-md-5 col-sm-12   form-group pull-right top_search">
             <div class="input-group">
                 <select class="form-control" id="ddlCategorySearch">
                     <option>--Select category--</option>
@@ -57,13 +60,13 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th width="10%">#</th>
                             <th>Name</th>
                             <th>Category</th>
                             <th>Price</th>
                             <th>Image</th>
                             <th>Created Date</th>
                             <th>Status</th>
+                            <th width="25%">Actions</th>
                         </tr>
                     </thead>
                     <tbody id="tbl-content">
@@ -74,10 +77,10 @@
                     <div class="col-sm-5">
                         <div class="dataTables_info" id="datatable-checkbox_info" role="status" aria-live="polite">
                             <select id="ddlShowPage">
-                                <option value="10" selected="selected">10</option>
-                                <option value="20">20</option>
-                                <option value="30">30</option>
-                                <option value="50">50</option>
+                                <option value="8" selected="selected">8</option>
+                                <option value="16">16</option>
+                                <option value="24">24</option>
+                                <option value="32">32</option>
                             </select>
                             <span class="item-per-page">
                                 bản ghi/trang.
@@ -95,19 +98,26 @@
     </div>
 </div>
 
-<script id="table-template" type="x-tmp-mustache">
+<script id="table-template" type="x-tmpl-mustache">
     <tr>
-        <th scope="row">
-            <button class="btn btn-default btn-sm btn-edit" data-id="{{Id}}"><i class="fa fa-pencil"></i></button>
-            <button class="btn btn-danger btn-sm btn-delete" data-id="{{Id}}"><i class="fa fa-trash"></i></button>
-        </th>
+
         <td>{{Name}}</td>
-        <td>{{Category}}</td>
+        <td>{{CategoryName}}</td>
         <td>{{Price}}</td>
         <td>{{{Image}}}</td>
         <td>{{CreatedDate}}</td>
         <td>{{{Status}}}</td>
+        <th scope="row">
+            <a class="btn  btn-sm btn-edit" data-id="{{Id}}"><i class="fa fa-pencil"></i></a>
+            <a class="btn  btn-sm btn-delete" data-id="{{Id}}"><i class="fa fa-trash"></i></a>
+            <a href="#" data-id="{{Id}}" class="btn btn-xs btn-images"><i class="fa fa-image"></i></a>
+            <a href="#" data-id="{{Id}}" class="btn btn-xs btn-quantity"><i class="fa fa-hourglass-start"></i></a>
+            <a href="#" data-id="{{Id}}" class="btn btn-xs btn-whole-price"><i class="fa fa-money"></i></a>
+        </th>
     </tr>
 </script>
 @Html.Partial("_AddEditModal.cshtml")
 @Html.Partial("_ImportExcelModal.cshtml")
+@Html.Partial("_QuantityManagement.cshtml")
+@Html.Partial("_ImageManagement.cshtml")
+@Html.Partial("_WholePriceManagement.cshtml")

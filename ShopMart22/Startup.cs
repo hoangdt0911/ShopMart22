@@ -117,6 +117,12 @@ namespace ShopMart22
             services.AddTransient<IRoleService, RoleService>();
 
             services.AddTransient<IAuthorizationHandler, BaseResourceAuthorizationHandler>();
+
+            services.AddTransient<IBillService, BillService>();
+
+            services.AddTransient<IBlogService, BlogService>();
+
+            services.AddTransient<ICommonService, CommonService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -104,6 +104,7 @@ namespace ShopMart22.Data.EF
                         changedOrAddedItem.DateCreated = DateTime.Now;
                     }
                     changedOrAddedItem.DateModified = DateTime.Now;
+
                 }
             }
             return base.SaveChanges();

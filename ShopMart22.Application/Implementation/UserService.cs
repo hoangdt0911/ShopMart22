@@ -32,7 +32,8 @@ namespace ShopMart22.Application.Implementation
                 Email = userVm.Email,
                 FullName = userVm.FullName,
                 DateCreated = DateTime.Now,
-                PhoneNumber = userVm.PhoneNumber
+                PhoneNumber = userVm.PhoneNumber,
+                Status = userVm.Status
             };
             var result = await _userManager.CreateAsync(user, userVm.Password);
             if (result.Succeeded && userVm.Roles.Count > 0)
@@ -120,6 +121,7 @@ namespace ShopMart22.Application.Implementation
                 user.Status = userVm.Status;
                 user.Email = userVm.Email;
                 user.PhoneNumber = userVm.PhoneNumber;
+                user.DateModified = DateTime.Now;
                 await _userManager.UpdateAsync(user);
             }
         }

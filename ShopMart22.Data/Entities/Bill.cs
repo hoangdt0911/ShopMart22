@@ -63,6 +63,7 @@ namespace ShopMart22.Data.Entities
         public BillStatus BillStatus { set; get; }
 
         public DateTime DateCreated { set; get; }
+        
         public DateTime DateModified { set; get; }
 
         [DefaultValue(Status.Active)]

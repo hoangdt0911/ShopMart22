@@ -71,6 +71,8 @@
     <None Include="wwwroot\lib\bootbox\.git\packed-refs" />
     <None Include="wwwroot\lib\bootbox\.git\refs\heads\master" />
     <None Include="wwwroot\lib\bootbox\.git\refs\remotes\origin\HEAD" />
+    <None Include="wwwroot\lib\bootstrap-datepicker\.github\ISSUE_TEMPLATE.md" />
+    <None Include="wwwroot\lib\bootstrap-datepicker\.github\PULL_REQUEST_TEMPLATE.md" />
     <None Include="wwwroot\lib\bootstrap\.github\CODEOWNERS" />
     <None Include="wwwroot\lib\bootstrap\.github\CONTRIBUTING.md" />
     <None Include="wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\bug.md" />

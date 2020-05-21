@@ -98,7 +98,7 @@
                     if ($(item).prop('checked') === true)
                         roles.push($(item).prop('value'));
                 });
-                var status = $('#ckStatus').prop('checked') === true ? 1 : 0;
+                var status = $('#ckStatus').prop('checked') == true ? 1 : 0;
 
                 $.ajax({
                     type: "POST",
@@ -178,7 +178,7 @@
         $('input[name="ckRoles"]').removeAttr('checked');
         $('#txtEmail').val('');
         $('#txtPhoneNumber').val('');
-        $('#ckStatus').prop('checked', true);
+        $('#ckStatus').prop('checked', false);
 
     }
 
@@ -232,6 +232,7 @@
                             Id: item.Id,
                             UserName: item.UserName,
                             Avatar: item.Avatar === undefined ? '<img src="/admin-side/images/user.png" width=25 />' : '<img src="' + item.Avatar + '" width=25 />',
+                            //DateCreated: ShopMart22.dateTimeFormatJson(item.DateCreated),
                             DateCreated: ShopMart22.dateTimeFormatJson(item.DateCreated),
                             Status: ShopMart22.getStatus(item.Status)
                         });

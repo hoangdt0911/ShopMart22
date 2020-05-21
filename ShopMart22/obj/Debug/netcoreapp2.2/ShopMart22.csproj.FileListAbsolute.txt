@@ -66,3 +66,16 @@ D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Are
 D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Role\_AssignPermission.cshtml.g.cs
 D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\ShopMart22.csproj.CoreCompileInputs.cache
 D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\_ImportExcelModal.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Bill\Index.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Bill\_DetailModal.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\_QuantityManagement.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\_ImageManagement.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\_WholePriceManagement.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Views\Home\_ServicePartial.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\Brand\Default.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\MobileMenu\Default.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Footer.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Header.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_SelectLanguagePartial.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
+D:\American English File\ShopMart22\ShopMart22\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\MainMenu\Default.cshtml.g.cs
